@@ -30,7 +30,7 @@ CREATE TABLE retail_sales (
     gender VARCHAR(15),
     age INT,
     category VARCHAR(15),
-    quantiy INT,
+    quantity INT,
     price_per_unit FLOAT,
     cogs FLOAT,
     total_sale FLOAT
@@ -186,3 +186,7 @@ FROM retail_sales
 WHERE EXTRACT(HOUR FROM sale_time) >= 18;
 ```
 
+## Conclusion
+
+This project demonstrates how SQL can be used to clean, explore, and analyze retail sales data to generate actionable business insights.  
+The queries presented cover a wide range of use cases, from customer segmentation to time-based sales trends, and lay the foundation for future visualization or integration into business dashboards.
